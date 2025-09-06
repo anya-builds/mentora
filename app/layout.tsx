@@ -6,6 +6,7 @@ import "./globals.css";
 import { Header } from "@/components/header";
 
 import { Providers } from "@/components/providers";
+import { Footer } from "@/components/footer";
 
 // Initialize the fonts
 const inter = Inter({
@@ -29,6 +30,7 @@ export default function RootLayout({
         <Providers>
           <Header />
           <main>{children}</main>
+          <Footer/>
          
         </Providers>
       </body>
