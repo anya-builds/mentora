@@ -9,7 +9,13 @@ import {
   LogOut,
   LogIn,
 } from "lucide-react";
+import { SignInButton } from "@/components/auth/sign-in-button";
+import { ThemeToggle } from "./theme-toggle";
 export function Header(){
+    const navItems = [
+    { href: "/features", label: "Features" },
+    { href: "/about", label: "About Aura" },
+  ];
     return <div className="w-full fixed top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="absolute inset-0 border-b border-primary/10" />
            <header className="relative max-w-6xl mx-auto px-4">
@@ -28,6 +34,24 @@ export function Header(){
               </span>
             </div>
           </Link>
+           <div className="flex items-center gap-4">
+            <nav className="hidden md:flex items-center space-x-1">
+              {navItems.map((item) => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className="px-4 py-2 text-sm font-medium text-muted-foreground hover:text-foreground transition-colors relative group"
+                >
+                  {item.label}
+                  <span className="absolute bottom-0 left-0 w-full h-0.5 bg-primary scale-x-0 group-hover:scale-x-100 transition-transform duration-200 origin-left" />
+                </Link>
+              ))}
+            </nav>
+            <div className="flex items-center gap-3">
+                <ThemeToggle/>
+                 <SignInButton />
+            </div>
+            </div>
             </div>
            </header>
         
