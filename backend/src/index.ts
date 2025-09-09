@@ -1,6 +1,9 @@
-import express, { Request, Response } from "express";
-
 const app = express();
+import express, { Request, Response } from "express";
+import { serve } from "inngest/express";
+import { inngest, functions } from "./inngest";
+
+
 const PORT = 3001;
 
 app.use(express.json());
