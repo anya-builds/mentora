@@ -4,6 +4,7 @@ import { Session } from "../models/Session";
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 
+
 export const register = async (req: Request, res: Response) => {
   try {
     const { name, email, password } = req.body;
