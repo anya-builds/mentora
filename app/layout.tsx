@@ -2,11 +2,10 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
 import "./globals.css";
-
-import { Header } from "@/components/header";
-
-import { Providers } from "@/components/providers";
 import { Footer } from "@/components/footer";
+import { Header } from "@/components/header";
+import { Toaster } from "@/components/ui/toaster";
+import { Providers } from "@/components/providers";
 
 // Initialize the fonts
 const inter = Inter({
@@ -15,7 +14,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Mentora",
+  title: "AI Therapy Agent",
   description: "Your personal AI therapy companion",
 };
 
@@ -30,8 +29,8 @@ export default function RootLayout({
         <Providers>
           <Header />
           <main>{children}</main>
-          <Footer/>
-         
+          <Footer />
+          <Toaster />
         </Providers>
       </body>
     </html>
