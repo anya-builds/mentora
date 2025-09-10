@@ -537,7 +537,7 @@ export default function TherapyPage() {
                       className="absolute inset-0 bg-primary/20 blur-2xl rounded-full"
                       initial="initial"
                       animate="animate"
-                    //   variants={glowAnimation}
+                      variants={glowAnimation}
                     />
                     <div className="relative flex items-center gap-2 text-2xl font-semibold">
                       <div className="relative">
@@ -546,7 +546,7 @@ export default function TherapyPage() {
                           className="absolute inset-0 text-primary"
                           initial="initial"
                           animate="animate"
-                        //   variants={glowAnimation}
+                          variants={glowAnimation}
                         >
                           <Sparkles className="w-6 h-6" />
                         </motion.div>
