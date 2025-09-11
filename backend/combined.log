@@ -59,3 +59,7 @@
 {"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-09-10T18:21:43.350Z"}
 {"level":"info","message":"Server is running on port 3001","timestamp":"2025-09-10T18:21:43.357Z"}
 {"level":"info","message":"Inngest endpoint available at http://localhost:3001/api/inngest","timestamp":"2025-09-10T18:21:43.358Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-09-11T06:11:08.140Z"}
+{"level":"info","message":"Server is running on port 3001","timestamp":"2025-09-11T06:11:08.147Z"}
+{"level":"info","message":"Inngest endpoint available at http://localhost:3001/api/inngest","timestamp":"2025-09-11T06:11:08.154Z"}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.mentora.n9fwxau.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.mentora.n9fwxau.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.mentora.n9fwxau.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17)","syscall":"querySrv","timestamp":"2025-09-11T06:46:06.347Z"}
