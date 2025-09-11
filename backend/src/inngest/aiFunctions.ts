@@ -4,7 +4,7 @@ import { logger } from "../utils/logger";
 
 // Initialize Gemini
 const genAI = new GoogleGenerativeAI(
-  process.env.GEMINI_API_KEY || 'AIzaSyDi_BHrOt8CB6osXyTrS1Mh1gRHDhvApjM'
+  process.env.GEMINI_API_KEY || 'AIzaSyD44NJEBaOA8T7j0kYGSF_MmAtkih9hK7w'
 );
 
 // Function to handle chat message processing
