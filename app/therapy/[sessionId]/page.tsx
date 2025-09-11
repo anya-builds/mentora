@@ -18,6 +18,7 @@ import {
   MessageSquare,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { Variants } from "framer-motion";
 import { motion, AnimatePresence } from "framer-motion";
 import ReactMarkdown from "react-markdown";
 import {
@@ -74,18 +75,7 @@ const SUGGESTED_QUESTIONS = [
   { text: "I need help with work-life balance" },
 ];
 
-const glowAnimation = {
-  initial: { opacity: 0.5, scale: 1 },
-  animate: {
-    opacity: [0.5, 1, 0.5],
-    scale: [1, 1.05, 1],
-    transition: {
-      duration: 3,
-      repeat: Infinity,
-      ease: "easeInOut",
-    },
-  },
-};
+
 
 const COMPLETION_THRESHOLD = 5;
 
@@ -401,6 +391,19 @@ export default function TherapyPage() {
       setIsCompletingSession(false);
     }
   };
+  
+const glowAnimation: Variants = {
+  initial: { opacity: 0.5, scale: 1 },
+  animate: {
+    opacity: [0.5, 1, 0.5],
+    scale: [1, 1.05, 1],
+    transition: {
+      duration: 3,
+      repeat: Infinity,
+      ease: "easeInOut",
+    },
+  },
+};
 
   const handleSessionSelect = async (selectedSessionId: string) => {
     if (selectedSessionId === sessionId) return;
@@ -533,23 +536,24 @@ export default function TherapyPage() {
               <div className="max-w-2xl w-full space-y-8">
                 <div className="text-center space-y-4">
                   <div className="relative inline-flex flex-col items-center">
-                    <motion.div
-                      className="absolute inset-0 bg-primary/20 blur-2xl rounded-full"
-                      initial="initial"
-                      animate="animate"
-                      variants={glowAnimation}
-                    />
-                    <div className="relative flex items-center gap-2 text-2xl font-semibold">
-                      <div className="relative">
-                        <Sparkles className="w-6 h-6 text-primary" />
-                        <motion.div
-                          className="absolute inset-0 text-primary"
-                          initial="initial"
-                          animate="animate"
-                          variants={glowAnimation}
-                        >
-                          <Sparkles className="w-6 h-6" />
-                        </motion.div>
+                  <motion.div
+  className="absolute inset-0 bg-primary/20 blur-2xl rounded-full"
+  initial="initial"
+  animate="animate"
+  variants={glowAnimation}
+/>
+
+<div className="relative flex items-center gap-2 text-2xl font-semibold">
+  <div className="relative">
+    <Sparkles className="w-6 h-6 text-primary" />
+    <motion.div
+      className="absolute inset-0 text-primary"
+      initial="initial"
+      animate="animate"
+      variants={glowAnimation}
+    >
+      <Sparkles className="w-6 h-6" />
+    </motion.div>
                       </div>
                       <span className="bg-gradient-to-r from-primary/90 to-primary bg-clip-text text-transparent">
                         AI Therapist
