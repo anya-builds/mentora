@@ -42,7 +42,7 @@ export interface ApiResponse {
 
 const API_BASE =
   process.env.BACKEND_API_URL ||
-  "http://localhost:3001";
+  "https://ai-therapist-agent-backend.onrender.com";
 
 // Helper function to get auth headers
 const getAuthHeaders = () => {
@@ -180,5 +180,4 @@ export const getAllChatSessions = async (): Promise<ChatSession[]> => {
     console.error("Error fetching chat sessions:", error);
     throw error;
   }
-  
 };

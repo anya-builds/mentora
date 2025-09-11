@@ -1,37 +1,57 @@
-THERAPY SEESION ID
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Mentora: AI-Powered Mental Health Support on Sonic 🧠⛓️
 
-## Getting Started
+[![Sonic Token](https://img.shields.io/badge/Sonic-Integration-purple.svg)]()
+[![Zerepy](https://img.shields.io/badge/Zerepy-AI_Agent-blue.svg)]()
+[![HIPAA](https://img.shields.io/badge/HIPAA-Compliant-green.svg)]()
+[![Crisis Response](https://img.shields.io/badge/Crisis-Detection-red.svg)]()
+[![Smart Contract](https://img.shields.io/badge/Sonic_Blaze-Testnet-orange.svg)]()
 
-First, run the development server:
+> An autonomous AI therapist powered by advanced NLP and emotional intelligence, providing personalized mental health support while ensuring privacy through blockchain technology. Built on Sonic Blaze Testnet with Zerepy agents.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📸 Project Showcase
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<div align="center">
+  <img src="https://i.imghippo.com/files/uath6507iKU.png" alt="Aura Dashboard" width="45%" />
+  <img src="https://i.imghippo.com/files/CBbx8767gPg.png" alt="Therapy Session" width="45%" />
+</div>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<div align="center">
+  <img src="https://i.imghippo.com/files/RHud5372Iq.png" alt="Progress Tracking" width="45%" />
+  <img src="https://i.imghippo.com/files/FBU1874HaE.png" alt="Mental Health Analytics" width="45%" />
+</div>
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+<div align="center">
+  <img src="https://i.imghippo.com/files/Su5718PoM.png" alt="AI Interaction" width="45%" />
+  <img src="https://i.imghippo.com/files/Q1022fI.png" alt="Therapeutic Features" width="45%" />
+</div>
 
-## Learn More
+## 🌟 Key Features
 
-To learn more about Next.js, take a look at the following resources:
+### 🤖 Advanced AI Therapy System
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Zerepy Agent Integration**
+  - Advanced autonomous agent powered by state-of-the-art gpt-4
+  - Multi-agent coordination for comprehensive care
+  - Dynamic personality adaptation based on user needs
+  - Specialized therapeutic approaches and interventions
+  - Real-time crisis detection and emergency protocols
+  - Continuous learning and improvement system
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+### 🌈 Interactive Therapeutic Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Mindfulness Activities**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+  - Breathing exercises with visual guidance
+  - Digital Zen garden for stress relief
+  - Virtual forest walks
+  - Ocean wave meditation
+
+- **Smart Environment Integration**
+  - IoT device synchronization
+  - Ambient lighting control
+  - Therapeutic sound management
+  - Environmental adaptation to mood
+
+
+
